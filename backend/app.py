@@ -10,7 +10,17 @@ app = Flask(__name__)
 
 # Use FRONTEND_URL from environment variable or fallback to local
 frontend_url = os.getenv('FRONTEND_URL', 'https://aisimplifier.netlify.app')
-CORS(app, resources={r"/api/*": {"origins": [frontend_url, "http://localhost:5001", "http://localhost:3000"]}})
+CORS(app, resources={
+    r"/api/*": {
+        "origins": [
+            frontend_url,
+            "http://localhost:5000",
+            "http://localhost:3000"
+        ],
+        "methods": ["GET", "POST", "OPTIONS"],
+        "allow_headers": ["Content-Type"]
+    }
+})
 
 # Initialize AISimplifier
 try:
