@@ -27,7 +27,7 @@ class Config:
     # Main configuration
     GEMINI_MODEL_NAME = os.getenv('GEMINI_MODEL_NAME', 'gemini-2.5-pro')
     PORT = int(os.getenv('PORT', 5000))
-    FRONTEND_URL = os.getenv('FRONTEND_URL', 'http://localhost:3000')
+    FRONTEND_URL = os.getenv('FRONTEND_URL', 'https://aisimplifier.netlify.app')
 
 
 # Print a short diagnostic so logs show what the config discovered.
