@@ -115,12 +115,44 @@ class AISimplifier:
 
     def _log_error(self, error: Exception):
         # ... (same as before)
+        """Logs errors with timestamp."""
+        os.makedirs("backend/logs", exist_ok=True)
+        log_path = os.path.join("backend/logs", "gemini_errors.log")
+
+        with open(log_path, "a", encoding="utf-8") as f:
+            f.write(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] {type(error).__name__}: {error}\n")
+
+        print(f"📝 Error logged to {log_path}")
         pass
 
     def _fallback_simplify(self, text: str, reason: str = "Unknown") -> str:
         # ... (same as before)
+        """Fallback simplification logic if Gemini fails."""
+        print(f"⚙️ Using fallback simplifier. Reason: {reason}")
+
+        try:
+            simplified = re.sub(r"\b(herein|thereof|whereas|therein|thereby|hereto)\b", "", text, flags=re.IGNORECASE)
+            simplified = re.sub(r"\s+", " ", simplified).strip()
+
+            # Short fallback summary (not AI, just a placeholder)
+            summary = (
+                "⚠️ AI Simplifier is temporarily unavailable.\n"
+                "Here is a cleaned version of your document for readability:\n\n"
+                f"{simplified[:1500]}{'...' if len(simplified) > 1500 else ''}"
+            )
+            return summary
+        except Exception as e:
+            return f"⚠️ Simplifier unavailable. Reason: {reason}. Fallback failed: {e}"
         pass
 
 if __name__ == '__main__':
     # ... (same as before)
+    ai = AISimplifier()
+    sample_text = """
+    This Agreement shall be governed by and construed in accordance with the laws
+    of the State of California. The parties agree to resolve any disputes amicably.
+    """
+    result = ai.simplify_text(sample_text)
+    print("\n=== Simplified Document ===\n")
+    print(result)
     pass
