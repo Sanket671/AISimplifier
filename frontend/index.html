@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the backend base URL here for deployments. Update this meta tag on the hosting platform if needed. -->
+    <meta name="backend-base" content="https://aisimplifier.onrender.com">
     <title>Legal Document Simplifier</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -54,5 +56,18 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+        // If the inline meta tag is present, expose it so script.js can pick it up via window.__BACKEND_BASE__
+        (function(){
+            try {
+                var meta = document.querySelector('meta[name="backend-base"]');
+                if (meta && meta.content) {
+                    window.__BACKEND_BASE__ = meta.content;
+                }
+            } catch (e) {
+                // ignore
+            }
+        })();
+    </script>
 </body>
 </html>
