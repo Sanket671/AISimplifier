@@ -1,1 +1,5 @@
-python run.py
+python run.py => Run this command
+
+Open Below Link
+
+https://aisimplifierfrontend.netlify.app/ 
