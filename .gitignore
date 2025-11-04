@@ -10,3 +10,5 @@ Thumbs.db
 
 *.log
 "backend/.env" 
+
+procedure.txt
