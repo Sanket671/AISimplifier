@@ -1,0 +1,61 @@
+INDEMNIFICATION AND HOLD HARMLESS AGREEMENT
+
+THIS INDEMNIFICATION AND HOLD HARMLESS AGREEMENT (the "Agreement") is made and entered into as of this 15th day of October, 2023 (the "Effective Date"), by and between INNOVATIVE TECHNOLOGIES SOLUTIONS, INC., a Delaware corporation with its principal place of business at 123 Technology Drive, Silicon Valley, California (hereinafter referred to as the "Indemnitor"), and GLOBAL ENTERPRISE PARTNERS, LLC, a limited liability company organized under the laws of the State of New York, with its principal executive offices located at 456 Corporate Boulevard, New York, New York (hereinafter referred to as the "Indemnitee").
+
+RECITALS
+
+WHEREAS, Indemnitor and Indemnitee are parties to that certain Master Services Agreement dated January 15, 2023 (the "MSA"), pursuant to which Indemnitor provides certain cloud computing infrastructure and software-as-a-service solutions to Indemnitee;
+
+WHEREAS, in connection with the services provided under the MSA, Indemnitee may be exposed to certain liabilities, losses, damages, claims, suits, and proceedings;
+
+WHEREAS, the parties desire to set forth herein the terms and conditions pursuant to which Indemnitor shall indemnify, defend, and hold harmless Indemnitee from and against any and all such liabilities, losses, damages, claims, suits, and proceedings, to the extent arising out of or relating to the services provided by Indemnitor under the MSA;
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties hereto agree as follows:
+
+ARTICLE I: INDEMNIFICATION OBLIGATIONS
+
+1.1 Scope of Indemnification. Subject to the terms and conditions of this Agreement, Indemnitor shall indemnify, defend, and hold harmless Indemnitee and its affiliates, and their respective officers, directors, employees, agents, successors, and assigns (collectively, the "Indemnified Parties") from and against any and all losses, damages, liabilities, deficiencies, claims, actions, judgments, settlements, interest, awards, penalties, fines, costs, or expenses of whatever kind, including reasonable attorneys' fees and the costs of enforcing any right to indemnification under this Agreement and the cost of pursuing any insurance providers (collectively, "Losses"), incurred by any Indemnified Party arising out of or relating to:
+
+(a) any breach or alleged breach of any representation, warranty, covenant, or agreement made by Indemnitor in the MSA or this Agreement;
+
+(b) any negligent, reckless, or intentionally wrongful act or omission of Indemnitor or its employees, agents, or subcontractors;
+
+(c) any bodily injury, death of any person, or damage to real or tangible personal property caused by the acts or omissions of Indemnitor or its employees, agents, or subcontractors;
+
+(d) any failure by Indemnitor to comply with any applicable federal, state, or local laws, regulations, or codes; and
+
+(e) any claim that the services provided by Indemnitor under the MSA infringe, misappropriate, or otherwise violate any intellectual property rights of any third party.
+
+1.2 Indemnification Procedure. Indemnitee shall give Indemnitor prompt written notice of any claim, demand, or action for which indemnification is sought under this Agreement; provided, however, that any failure or delay in providing such notice shall not relieve Indemnitor of its obligations hereunder except to the extent that Indemnitor is materially prejudiced by such failure or delay. Indemnitor shall have the right to assume the defense of any such claim, demand, or action with counsel of its choice, reasonably acceptable to Indemnitee. Indemnitee shall have the right to participate in the defense of any such claim, demand, or action at its own expense with counsel of its choice.
+
+ARTICLE II: LIMITATION OF LIABILITY
+
+2.1 Consequential Damages Waiver. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT OR THE MSA, IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, LOSS OF BUSINESS OPPORTUNITIES, LOSS OF DATA, OR DAMAGES TO BUSINESS REPUTATION, WHETHER BASED ON CONTRACT, TORT, OR ANY OTHER LEGAL THEORY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+2.2 Liability Cap. EXCEPT FOR INDEMNIFICATION OBLIGATIONS UNDER ARTICLE I AND BREACHES OF CONFIDENTIALITY OBLIGATIONS, IN NO EVENT SHALL INDEMNITOR'S AGGREGATE LIABILITY ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE MSA, WHETHER IN CONTRACT, TORT, OR UNDER ANY OTHER THEORY OF LIABILITY, EXCEED THE TOTAL AMOUNT PAID BY INDEMNITEE TO INDEMNITOR UNDER THE MSA DURING THE TWELVE (12) MONTH PERIOD IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
+
+ARTICLE III: MISCELLANEOUS PROVISIONS
+
+3.1 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of New York, without giving effect to any choice or conflict of law provision or rule that would cause the application of the laws of any jurisdiction other than those of the State of New York.
+
+3.2 Dispute Resolution. Any dispute, controversy, or claim arising out of or relating to this Agreement, or the breach, termination, or invalidity thereof, shall be finally settled by arbitration administered by the American Arbitration Association in accordance with its Commercial Arbitration Rules. The arbitration shall be conducted in New York, New York, before a single arbitrator. The arbitrator's award shall be final and binding and may be entered as a judgment in any court of competent jurisdiction.
+
+3.3 Entire Agreement. This Agreement, together with the MSA and any exhibits attached hereto, constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements, representations, and understandings of the parties, whether oral or written.
+
+3.4 Severability. If any provision of this Agreement is held to be invalid, illegal, or unenforceable in any respect, that provision shall be limited or eliminated to the minimum extent necessary so that this Agreement shall otherwise remain in full force and effect and enforceable.
+
+3.5 Amendment. This Agreement may not be amended, modified, or supplemented except by a written instrument executed by duly authorized representatives of both parties.
+
+IN WITNESS WHEREOF, the parties have executed this Indemnification and Hold Harmless Agreement as of the Effective Date.
+
+INNOVATIVE TECHNOLOGIES SOLUTIONS, INC.
+
+By: _________________________
+Name: Robert Johnson
+Title: Chief Executive Officer
+
+GLOBAL ENTERPRISE PARTNERS, LLC
+
+By: _________________________
+Name: Sarah Williams
+Title: Managing Director

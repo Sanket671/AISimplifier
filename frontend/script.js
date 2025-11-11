@@ -2,14 +2,15 @@ document.addEventListener('DOMContentLoaded', () => {
     // Backend base URL: prefer an explicit override, fall back to localhost during dev,
     // otherwise use the production Render URL. Must not include the `/api/simplify` path
     // because fetch calls below append `/api/simplify`.
-    const BACKEND_BASE = (function() {
-        // Allow a page-level override (useful when deploying static site with env injection)
-        if (window.__BACKEND_BASE__) return window.__BACKEND_BASE__;
-        const host = window.location.hostname;
-        if (host === 'localhost' || host === '127.0.0.1') return 'http://localhost:5001';
-        // Production default (adjust if your backend URL differs)
-        return 'https://aisimplifier.onrender.com';
-    })();
+    // const BACKEND_BASE = (function() {
+    //     // Allow a page-level override (useful when deploying static site with env injection)
+    //     if (window.__BACKEND_BASE__) return window.__BACKEND_BASE__;
+    //     const host = window.location.hostname;
+    //     if (host === 'localhost' || host === '127.0.0.1') return 'http://localhost:5001';
+    //     // Production default (adjust if your backend URL differs)
+    //     return 'https://aisimplifier.onrender.com';
+    // })();
+    const BACKEND_URL = 'https://aisimplifier.onrender.com';
     let currentResult = '';
     let uploadedFile = null;
 

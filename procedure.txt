@@ -1,4 +1,12 @@
-python run.py => Run this command
+
+Run Project(2 ways) :-
+
+cd backend => python app.py
+cd frontend => python -m http.server 3000
+
+OR
+
+main folder => python run.py
 
 Open Below Link
 
