@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //     // Production default (adjust if your backend URL differs)
     //     return 'https://aisimplifier.onrender.com';
     // })();
-    const BACKEND_URL = 'https://aisimplifier.onrender.com';
+    const BACKEND_BASE = 'https://aisimplifier.onrender.com';
     let currentResult = '';
     let uploadedFile = null;
 
