@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //     // Production default (adjust if your backend URL differs)
     //     return 'https://aisimplifier.onrender.com';
     // })();
+    // const BACKEND_BASE = 'http://127.0.0.1:5001';
+
     const BACKEND_BASE = 'https://aisimplifier.onrender.com';
     let currentResult = '';
     let uploadedFile = null;
@@ -121,13 +123,21 @@ document.addEventListener('DOMContentLoaded', () => {
             let headers = {};
 
             if (file) {
+                console.log("📤 Sending file to backend:", file.name);
                 const formData = new FormData();
                 formData.append('file', file);
                 body = formData;
-            } else {
-                body = JSON.stringify({ text: text });
+                // ❌ Don't set Content-Type manually — browser will handle it automatically.
+                headers = {}; 
+            } else if (text) {
+                console.log("📤 Sending raw text to backend (JSON)");
+                body = JSON.stringify({ text });
                 headers['Content-Type'] = 'application/json';
+            } else {
+                showError('No valid input found.');
+                return;
             }
+
 
             // Add a timeout to avoid hanging forever
             const controller = new AbortController();

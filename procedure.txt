@@ -2,7 +2,7 @@
 Run Project(2 ways) :-
 
 cd backend => python app.py
-cd frontend => python -m http.server 3000
+cd frontend => python -m http.server 3000 --bind 127.0.0.1
 
 OR
 
@@ -11,3 +11,5 @@ main folder => python run.py
 Open Below Link
 
 https://aisimplifierfrontend.netlify.app/ 
+
+https://aisimplifierfrontend.netlify.app/
